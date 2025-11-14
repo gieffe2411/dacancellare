@@ -1,0 +1,33 @@
+#1 
+'''
+name = input("Come ti chiami?")
+age = int(input("Quanti anni hai?"))
+
+next_year_age = age + 1
+
+print("Ciao,", name, "avrai ", next_year_age, " anni l'anno prossimo!")
+'''
+#2
+
+vocali = ["a", "e", "i", "o", "u"]
+parola = input("parola: ")
+numero = 0
+
+for i in range(len(parola)):
+    if parola[i] in vocali:
+        numero += 1
+print("Numero di vocali: "+str(numero))
+
+#3
+
+x = 5
+x = x + 2
+x *= 3
+
+# Dovrebbe essere (5+2)*3 = 21
+
+
+        
+    
+
+
